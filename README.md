@@ -30,4 +30,5 @@ For the purpose of demo another application is made (Accel_Motor_Demo) to turn o
 Demo video can be found at:
 
 Smart Garden: https://www.youtube.com/watch?v=X0cz4ez2cIA
+
 Accelerometer and Pump Motor Demo: https://www.youtube.com/watch?v=6jTPhsJbOLk
