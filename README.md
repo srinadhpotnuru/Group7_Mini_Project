@@ -23,3 +23,4 @@ Launchpad with "ncp_ftd" will be connected with BeagleBone Black for border rout
 
 Soil Sensor is powered by 3.3v and Ground on Launchpad and the ADC signal is read by CC1352R1_LAUNCHXL_ADC5 on the launchpad. Pump motor is powered via a relay and the relay is controlled by DIO_20. These connections are made with the help of Grove interface board and Grove jumper cables.
 
+Once the devices form an openthread network, the sensors and motor is accessible through COAP commands to read sensor data and switch on/off motor. 
