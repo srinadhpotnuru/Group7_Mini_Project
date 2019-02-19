@@ -23,4 +23,14 @@ Launchpad with "ncp_ftd" will be connected with BeagleBone Black for border rout
 
 Soil Sensor is powered by 3.3v and Ground on Launchpad and the ADC signal is read by CC1352R1_LAUNCHXL_ADC5 on the launchpad. Pump motor is powered via a relay and the relay is controlled by DIO_20. These connections are made with the help of Grove interface board and Grove jumper cables.
 
-Once the devices form an openthread network, the sensors and motor is accessible through COAP commands to read sensor data and switch on/off motor. 
+Once the devices form an openthread network, the sensors and motor is accessible through COAP commands to read sensor data and switch on/off motor. Applications with smart garden functionality can control the environment intelligently based on the sensors' data. For that purpose an application named Smart_Garden will work. This reads light and temperature sensors' data with low frequency and estimates the weather. Similarly soil moisture is read periodically. Based on this data a decision to water the plant (duration) can be made and is sent to the pump motor. Accelerometer's data is used to determine gestures of an user. A user can choose to see the data on screen or not and control with the accelerometer.
+
+For the purpose of demo another application is made (Accel_Motor_Demo) to turn on or off the motor based on gesture. While the device with acceleromter is pointing upwards, the pump motor will be on and viceversa. This can be applied in remote control application of pump by an user.
+
+Demo video can be found at:
+
+Smart Garden
+https://www.youtube.com/watch?v=X0cz4ez2cIA
+
+Accelerometer and Pump Motor Demo
+https://www.youtube.com/watch?v=6jTPhsJbOLk
