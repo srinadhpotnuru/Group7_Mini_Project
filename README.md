@@ -4,7 +4,7 @@ Smart Gardening System
 
 Ad-Hoc Wireless Sensors Lab - Mini Project
 
-In this project you find project source folders for two launchpads. "shade_CC1352R1_LAUNCHXL_tirtos_ccs" will run on launchpad with pump motor relay signal and soil humidity sensor signal pin. And "light_sensor_CC1352R1_LAUNCHXL_tirtos_ccs" will run on launchapd connected with TI Sensor Booster pack. One launchpad will run "ncp_ftd" project found in SimpleLink CC13x2 SDK - v:2.30.00.45
+In this project you find project source folders for two launchpads. "shade_CC1352R1_LAUNCHXL_tirtos_ccs" will run on launchpad with pump motor relay signal and soil humidity sensor signal pin. And "light_sensor_CC1352R1_LAUNCHXL_tirtos_ccs" will run on launchpad connected with TI Sensor Booster pack. One launchpad will run "ncp_ftd" project found in SimpleLink CC13x2 SDK - v:2.30.00.45
 
 Hardware Setup Needed
 
